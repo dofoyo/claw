@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    active: dev
+server:
+  port: 8088
+ 
+ #配置日志
+logging:
+  #配置日志文件路径
+  level:
+    com.rhb: info #不同目录下的日志可配置不同级别
+    org.springfromework: error
+  #采用相对路径方式将日志文件输出到【log\myspringboot.log】
+  file: log\claw.log
