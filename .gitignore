@@ -23,3 +23,6 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+log/claw.log
+log/claw.log.2018-09-17.0.gz
+log/claw.log.2018-09-18.0.gz
